@@ -88,6 +88,10 @@ body {
 ul{
   list-style-type: none;
 }
+.service img{
+  max-width: 100%;
+  height: auto;
+}
 .mil-wrapper {
   position: relative;
   overflow: hidden;
