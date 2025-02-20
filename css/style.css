@@ -1830,7 +1830,11 @@ footer .mil-bg-img {
 
 .mil-footer-logo {
   display: block;
-  text-align: right;
+  width:250px;
+}
+.mil-footer-logo img{
+  max-width: 100%;
+  height: auto;
 }
 @media screen and (max-width: 992px) {
   .mil-footer-logo {
@@ -1952,20 +1956,19 @@ top panel
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-top-panel .mil-top-panel-content {
-  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
-.mil-logo img,.mil-footer-logo img{
-  width:220px !important;
-}
+
 .mil-top-panel .mil-top-panel-content .mil-logo {
-  display: block;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 370px;
+  padding:10px 0;
+}
+.mil-top-panel .mil-top-panel-content .mil-logo img{
+  max-width: 100%;
+  height: auto;
 }
 .mil-top-panel.mil-active {
   background-color: rgba(0, 0, 0, 0.9);
