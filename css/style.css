@@ -119,7 +119,12 @@ ul{
 .mil-flex {
   display: flex;
 }
-
+form .error{
+  color:red;
+  font-style: italic;
+  margin-top:10px;
+  font-size:14px;
+}
 section {
   position: relative;
 }
