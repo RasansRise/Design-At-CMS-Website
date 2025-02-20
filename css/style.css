@@ -1955,6 +1955,10 @@ top panel
   width: 100%;
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
+.mil-top-panel.relative{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 .mil-top-panel .mil-top-panel-content {
   display: flex;
   justify-content: space-between;
